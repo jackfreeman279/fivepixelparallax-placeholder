@@ -1,4 +1,4 @@
-.header {
+.landing {
     height: 100vh;
     background-color: RGB(var(--primary-normal));
     color: RGB(var(--text-light));
@@ -25,5 +25,12 @@
     
     &__img {
         fill: currentColor;
+    }
+
+    @media (max-width: $break-tablet) {
+
+        &__intro {
+            font-size: 2.2rem;
+        }
     }
 }

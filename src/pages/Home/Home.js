@@ -1,10 +1,14 @@
 import React from 'react';
 
-import Header from '../../components/Header/Header.js';
+import Landing from '../../components/Landing/Landing';
+import Footer from '../../components/Footer/Footer';
 
 function App() {
     return (
-        <Header />
+        <>
+            <Landing />
+            <Footer />
+        </>
     );
 }
 

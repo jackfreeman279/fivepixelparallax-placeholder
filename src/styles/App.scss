@@ -16,9 +16,14 @@
 
 /* COMPONENTS
 ========================================================================== */
-@import '../components/Header/styles/Header';
-@import '../components/Footer/styles/Footer';
-@import '../components/Social/styles/Social';
+@import '../components/Landing/styles/landing';
+@import '../components/Footer/styles/footer';
+@import '../components/Social/styles/social';
+
+/* PAGES
+========================================================================== */
+@import '../pages/Home/styles/home';
+@import '../pages/NotFound/styles/not-found';
 
 /* UTILITIES
 ========================================================================== */

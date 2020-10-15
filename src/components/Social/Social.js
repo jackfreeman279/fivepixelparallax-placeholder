@@ -16,7 +16,7 @@ export default function Social( { className } ) {
             </a> */}
             <a
                 className="social__link social__link--github"
-                href="https://github.com/fivepixelparallax/fivepixelparallax"
+                href="https://github.com/fivepixelparallax/"
                 target="_blank"
                 rel="noopener noreferrer"
             >
