@@ -1,0 +1,29 @@
+.header {
+    height: 100vh;
+    background-color: RGB(var(--primary-normal));
+    color: RGB(var(--text-light));
+
+    &__logo-container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__icon {
+        width: 60%;
+        max-width: 28rem;
+        position: relative;
+    }
+
+    &__wordmark {
+        width: 75%;
+        max-width: 80rem;
+        position: relative;
+    }
+    
+    &__img {
+        fill: currentColor;
+    }
+}

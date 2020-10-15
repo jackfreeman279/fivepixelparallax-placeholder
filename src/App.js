@@ -1,17 +1,28 @@
 import React from 'react';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+
 import './styles/App.scss';
 
-import { ReactComponent as BrandIcon } from './i/brand-icon.svg';
-import { ReactComponent as BrandWordmark } from './i/brand-wordmark.svg';
+import Home from './pages/Home/Home';
+import NotFound from './pages/NotFound/NotFound';
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <BrandIcon className="navigation__icon" alt="fivepixelparallax" />
-                <BrandWordmark className="navigation__wordmark" alt="fivepixelparallax" />
-            </header>
-        </div>
+        <Router>
+            <Switch>
+                <Route exact path="/">
+                    <Home />
+                </Route>
+                <Route path="*">
+                    <NotFound />
+                </Route>
+            </Switch>
+        </Router>
     );
 }
 
