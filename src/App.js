@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.scss';
+
+import { ReactComponent as BrandIcon } from './i/brand-icon.svg';
+import { ReactComponent as BrandWordmark } from './i/brand-wordmark.svg';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <BrandIcon className="navigation__icon" alt="fivepixelparallax" />
+                <BrandWordmark className="navigation__wordmark" alt="fivepixelparallax" />
+            </header>
+        </div>
+    );
 }
 
 export default App;

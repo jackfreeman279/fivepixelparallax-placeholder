@@ -1,0 +1,61 @@
+// stylelint-disable rule-empty-line-before, selector-max-universal, selector-max-type, selector-no-qualifying-type
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+ol,
+ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    li {
+        list-style-type: none;
+    }
+}
+
+cite {
+    font-style: normal;
+}
+
+html {
+    font-size: 62.5%;
+    background: RGB(var(--primary-normal));
+}
+
+body {
+    color: RGB(var(--text-dark));
+    font-size: 1.6rem;
+}
+
+button {
+    display: block;
+    border: 0;
+    outline: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+// stylelint-enable
