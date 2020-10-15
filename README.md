@@ -1,4 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# fivepixelparallax - Placeholder
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2417e025-c092-414e-920a-40c77374c3f4/deploy-status)](https://app.netlify.com/sites/fivepixelparallax-placeholder/deploys)
+
+This project acts as a placeholder for the fivepixelparallax site while it is under construction. It is bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Development
+
+1. Run `nvm use` to update your Node.js version to that used on the project
+2. Run `npm i` to install all necessary packages
 
 ## Available Scripts
 
